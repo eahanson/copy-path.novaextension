@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set +x
+set -euo pipefail
+trap "exit" INT
+set -x
+
+git pull --rebase
+git push origin HEAD

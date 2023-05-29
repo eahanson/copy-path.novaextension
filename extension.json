@@ -1,0 +1,22 @@
+{
+  "activationEvents": ["*"],
+  "bugs": "https://github.com/eahanson/copy-path.novaextension/issues",
+  "categories": ["commands"],
+  "commands": { "editor": [
+    { "title": "Copy Absolute Path", "command": "copy-path.absolute" },
+    { "title": "Copy Absolute Path with Line Number", "command": "copy-path.absolute-line" },
+    { "title": "Copy Absolute Path with Line & Column Number", "command": "copy-path.absolute-line-column" },
+    { "title": "Copy Relative Path", "command": "copy-path.relative" },
+    { "title": "Copy Relative Path with Line Number", "command": "copy-path.relative-line" },
+    { "title": "Copy Relative Path with Line & Column Number", "command": "copy-path.relative-line-column" }
+  ] },
+  "description": "Copies the absolute or relative path of the current file, optionally including the line number and column number.",
+  "entitlements": { "clipboard": true },
+  "homepage": "https://github.com/eahanson/copy-path.novaextension",
+  "identifier": "eahanson.copy-path",
+  "main": "main.js",
+  "name": "Copy Path",
+  "organization": "Erik Hanson",
+  "repository": "https://github.com/eahanson/copy-path.novaextension",
+  "version": "1.0"
+}
