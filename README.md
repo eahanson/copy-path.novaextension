@@ -14,7 +14,8 @@ To run Copy Path:
 
 ### Configuration
 
-Assign a keyboard shortcut in Nova’s settings. The author uses `mash-p` (`cmd-opt-ctrl-p`).
+Assign a keyboard shortcut to one or more of the commands in Nova’s settings. The author uses
+`mash-p` (`cmd-opt-ctrl-p`) for "Copy Relative Path with Line Number".
 
 ## Other Nova extensions you might like :)
 
