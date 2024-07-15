@@ -6,6 +6,11 @@
     { "title": "Copy Absolute Path", "command": "copy-path.absolute" },
     { "title": "Copy Absolute Path with Line Number", "command": "copy-path.absolute-line" },
     { "title": "Copy Absolute Path with Line & Column Number", "command": "copy-path.absolute-line-column" },
+    { "separator": true},
+    { "title": "Copy Absolute Path (nova:// format)", "command": "copy-path.nova-absolute" },
+    { "title": "Copy Absolute Path with Line Number (nova:// format)", "command": "copy-path.nova-absolute-line" },
+    { "title": "Copy Absolute Path with Line & Column Number (nova:// format)", "command": "copy-path.nova-absolute-line-column" },
+    { "separator": true},
     { "title": "Copy Relative Path", "command": "copy-path.relative" },
     { "title": "Copy Relative Path with Line Number", "command": "copy-path.relative-line" },
     { "title": "Copy Relative Path with Line & Column Number", "command": "copy-path.relative-line-column" }
@@ -18,5 +23,5 @@
   "name": "Copy Path",
   "organization": "Erik Hanson",
   "repository": "https://github.com/eahanson/copy-path.novaextension",
-  "version": "1.0"
+  "version": "1.1"
 }
